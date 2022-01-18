@@ -46,4 +46,10 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
+    @IBOutlet var MyLabel: UILabel!
+    @IBAction func MyButton(_ sender: Any) {
+        MyLabel.text = "HELLO WORLD"
+    }
+    
 }
